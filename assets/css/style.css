@@ -9,22 +9,26 @@ body {
     background-size: cover;
 }
 h1 {
-    font-family: 'cursive', Times, Times New Roman, serif;
-    font-size: 48px;
-    font-weight: Bold;
+    font-family:  'Londrina Outline', cursive, Times, Times New Roman, serif;
+    font-size: 60px;
+    font-weight: bold;
     color: yellow;
+    letter-spacing: 5px;
 } 
  h2,
  p {
+    font-family:  'Londrina Outline', cursive, Times, Times New Roman, serif;
      font-size: 36px;
      color: yellow;
+     font-weight: bold;
+     letter-spacing: 2px;
 } 
  
 /*-----Header-----*/
 
 #main-header {
     width: 100%;
-    padding-right: 12%;
+    padding-right: 15%;
     z-index: 99;
     text-align: right;
 }
@@ -40,37 +44,14 @@ h1 {
     display: table;
     clear: both;
 }
-#main-container {
-    margin-top: 2%;
-}
 .placeholder-image {
     height: 200px;
     width: 225px;
     padding: 20px 0px 20px 0px;
-    
     background-color: #ffffff;
     border: solid;
     border-color: blue;
 }
-#random-word,
-#loaded-word,
-#guess-box {
-    background: black;
-    color: #ffffff;
-    text-align: center;
-}
-#loaded-word {
-    height: 120px;
-    padding-top: 5%;
-}
-#guess-box,
-#guess-num,
-#guessed-letters,
-#guessed-letters-area,
-#win-some,
-#win-num {
-    height: 70px;
-    padding-top: 2%;
-}
+
 
 
