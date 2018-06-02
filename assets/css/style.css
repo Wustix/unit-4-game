@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+/*-----General-----*/
+
+body {
+    background-image: url(../images/Millennium-Falcon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-family: 'cursive', Times, Times New Roman, serif;
+    font-size: 48px;
+    font-weight: Bold;
+    color: yellow;
+} 
+ h2,
+ p {
+     font-size: 36px;
+     color: yellow;
+} 
+ 
+/*-----Header-----*/
+
+#main-header {
+    width: 100%;
+    padding-right: 12%;
+    z-index: 99;
+    text-align: right;
+}
+
+/*-----GameArea-----*/
+
+.column-1-9 {
+    float: left;
+    width: 75%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#main-container {
+    margin-top: 2%;
+}
+.placeholder-image {
+    height: 200px;
+    width: 225px;
+    padding: 20px 0px 20px 0px;
+    
+    background-color: #ffffff;
+    border: solid;
+    border-color: blue;
+}
+#random-word,
+#loaded-word,
+#guess-box {
+    background: black;
+    color: #ffffff;
+    text-align: center;
+}
+#loaded-word {
+    height: 120px;
+    padding-top: 5%;
+}
+#guess-box,
+#guess-num,
+#guessed-letters,
+#guessed-letters-area,
+#win-some,
+#win-num {
+    height: 70px;
+    padding-top: 2%;
+}
+
+
