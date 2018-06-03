@@ -6,7 +6,8 @@ var counterAttack
 
 
 $(document).ready(function() {
-
+    
+    $("#click-me").on("click", function()
 
 
 

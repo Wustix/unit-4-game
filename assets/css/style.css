@@ -13,16 +13,33 @@ h1 {
     font-size: 60px;
     font-weight: bold;
     color: yellow;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
 } 
- h2,
- p {
-    font-family:  'Londrina Outline', cursive, Times, Times New Roman, serif;
-     font-size: 36px;
-     color: yellow;
-     font-weight: bold;
-     letter-spacing: 2px;
-} 
+ h2 {
+    font-family:  'Londrina Outline', Times, Times New Roman, serif;
+    font-size: 36px;
+    color: yellow;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+#charheader {
+    background: black;
+    width: 235px;
+}
+#enemiesheader {
+    background: black;
+    width: 430px;
+}
+#fightheader {
+    background: black;
+    width: 210px;
+}
+#defendheader {
+    background: black;
+    width: 140px;
+}
+
  
 /*-----Header-----*/
 
@@ -37,7 +54,6 @@ h1 {
 .row {
     width: 100%;
 }
-
 .row:after {
     content: "";
     display: table;
@@ -53,7 +69,7 @@ h1 {
 }
 .character-image {
     display: inline-block;
-    height: 190px;
+    height: 180px;
     width: 225px;
     padding: 5px 0px 5px 0px;
     background-color: white;
@@ -61,12 +77,14 @@ h1 {
     border-color: blue;
     text-align: center;
 }
-p {
-    color: black;
-    font-size: 24px;
-}
 #charimg {
     float: left;
-
 }
+p {
+    clear: both;
+    color: black;
+    font-size: 18px;
+}
+
+
 
