@@ -34,24 +34,39 @@ h1 {
 }
 
 /*-----GameArea-----*/
-
-.column-1-9 {
-    float: left;
-    width: 75%;
+.row {
+    width: 100%;
 }
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 .placeholder-image {
-    height: 200px;
+    height: 175px;
     width: 225px;
     padding: 20px 0px 20px 0px;
     background-color: #ffffff;
     border: solid;
     border-color: blue;
 }
+.character-image {
+    display: inline-block;
+    height: 190px;
+    width: 225px;
+    padding: 5px 0px 5px 0px;
+    background-color: white;
+    border: solid;
+    border-color: blue;
+    text-align: center;
+}
+p {
+    color: black;
+    font-size: 24px;
+}
+#charimg {
+    float: left;
 
-
+}
 
