@@ -85,6 +85,9 @@ p {
     color: black;
     font-size: 18px;
 }
+#character-image {
+    cursor: pointer;
+}
 
 
 

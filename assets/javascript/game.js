@@ -9,13 +9,26 @@ var defendChar = {};
 var endGame = false;
 var characterChosen = false;
 var defenderChosen = false;
+var gameOver = false;
 
 
 
 $(document).ready(function() {
 
-    $("").on("click", function() {
+    $("#hansolo").on("click", function() {
+        alert("Han shot first");
+    });
 
+    $("#lukeskywalker").on("click", function() {
+        alert("Look at the size of that thing");
+    });
+
+    $("#darthvader").on("click", function() {
+        alert("That's what she said");
+    });
+
+    $("#bobafett").on("click", function() {
+        alert("Darth, what are you, 15?");
     });
 
 
