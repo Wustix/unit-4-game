@@ -1,13 +1,22 @@
-var hanSolo = [healthpoints = 130 , attackPower = 8, counterattackpower = 30];
-var lukeSkywalker = [healthpoints = 140, attackPower = 10, counterattackpower = 25];
-var bobaFett = [healthpoints = 100, attackPower = 6, counterattackpower = 20];
-var darthVader = [healthpoints = 150, attackPower = 12, counterattackpower = 30];
-var counterAttack
+var hanSolo = { name: "Han Solo", health: 130, attackPower: 8, counterAttack: 30};
+var lukeSkywalker = { name: "Luke Skywalker", health: 140, attackPower: 10, counterAttack: 25};
+var bobaFett = { name: "Boba Fett", health: 100, attackPower: 6, counterAttack: 20};
+var darthVader = { name: "Darth Vader", health: 150, attackPower: 12, counterAttack: 30};
+var counterAttack;
+var chosenChar = {};
+var enemiesAvailChar;
+var defendChar = {};
+var endGame = false;
+var characterChosen = false;
+var defenderChosen = false;
+
 
 
 $(document).ready(function() {
-    
-    $("#click-me").on("click", function()
+
+    $("").on("click", function() {
+
+    });
 
 
 
