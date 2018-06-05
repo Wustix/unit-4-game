@@ -8,12 +8,15 @@ var defenderChosen = false;
 var gameOver = false;
 
 
+  
+  
 
 $(document).ready(function() {
 
     $("#hansolochar").on("click", function() {
         $("#hansolochar").removeClass("character-play").addClass("playerchoice");
         $("#playerchoice").append(this);
+       
      
     });
 
