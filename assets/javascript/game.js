@@ -3,10 +3,6 @@ var lukeSkywalker = { name: "Luke Skywalker", health: 140, attackPower: 10, coun
 var bobaFett = { name: "Boba Fett", health: 100, attackPower: 6, counterAttack: 20};
 var darthVader = { name: "Darth Vader", health: 150, attackPower: 12, counterAttack: 30};
 var counterAttack;
-var chosenChar = {};
-var enemiesAvailChar;
-var defendChar = {};
-var endGame = false;
 var characterChosen = false;
 var defenderChosen = false;
 var gameOver = false;
