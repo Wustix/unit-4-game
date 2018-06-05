@@ -15,20 +15,25 @@ var gameOver = false;
 
 $(document).ready(function() {
 
-    $("#hansolo").on("click", function() {
-        alert("Han shot first");
+    $("#hansolochar").on("click", function() {
+        $("#hansolochar").removeClass("character-play").addClass("playerchoice");
+        $("#playerchoice").append(this);
+     
     });
 
-    $("#lukeskywalker").on("click", function() {
-        alert("Look at the size of that thing");
+    $("#lukeskywalkerchar").on("click", function() {
+        $("#lukeskywalkerchar").removeClass("character-play").addClass("playerchoice");
+        $("#playerchoice").append(this);
     });
 
-    $("#darthvader").on("click", function() {
-        alert("That's what she said");
+    $("#darthvaderchar").on("click", function() {
+        $("#darthvaderchar").removeClass("character-play").addClass("playerchoice");
+        $("#playerchoice").append(this);
     });
 
-    $("#bobafett").on("click", function() {
-        alert("Darth, what are you, 15?");
+    $("#bobafettchar").on("click", function() {
+        $("#bobafettchar").removeClass("character-play").addClass("playerchoice");
+        $("#playerchoice").append(this);
     });
 
 
