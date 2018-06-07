@@ -8,7 +8,7 @@ $(document).ready(function() {
     var defenderChosen = false;
     var gameOver = false;
     var defenderBeat = false;
-    var gitstinks
+    
     
 
 
