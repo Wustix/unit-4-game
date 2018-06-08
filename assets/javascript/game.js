@@ -26,20 +26,14 @@ $(document).ready(function () {
             $("#playerchoice").append(this)
         };
 
-        
+
 
         moveToEnemies();
 
-    if($("#hansolochar").hasClass("slice-enemies")) {
+        if ($("#hansolochar").hasClass("slice-enemies")) {
             $("#hansolochar").removeClass("slice-enemies").addClass("defender-character");
             $("#defendturf").append(this);
-            };
-
-        
-
-
-
-
+        };
 
     });
     $("#lukeskywalkerchar").on("click", function () {
@@ -50,10 +44,10 @@ $(document).ready(function () {
 
         moveToEnemies();
 
-        if($("#lukeskywalkerchar").hasClass("slice-enemies")) {
+        if ($("#lukeskywalkerchar").hasClass("slice-enemies")) {
             $("#lukeskywalkerchar").removeClass("slice-enemies").addClass("defender-character");
             $("#defendturf").append(this);
-            };
+        };
 
 
     });
@@ -67,11 +61,11 @@ $(document).ready(function () {
 
         moveToEnemies();
 
-        if($("#darthvaderchar").hasClass("slice-enemies")) {
+        if ($("#darthvaderchar").hasClass("slice-enemies")) {
             $("#darthvaderchar").removeClass("slice-enemies").addClass("defender-character");
             $("#defendturf").append(this);
-            };
-                
+        };
+
 
 
     });
@@ -84,10 +78,12 @@ $(document).ready(function () {
 
         moveToEnemies();
 
-        if($("#bobafettchar").hasClass("slice-enemies")) {
+        if ($("#bobafettchar").hasClass("slice-enemies")) {
             $("#bobafettchar").removeClass("slice-enemies").addClass("defender-character");
             $("#defendturf").append(this);
-            };
+        };
     });
-        
+
 });
+
+//Code for user attack did not get done correctly.  Needs to be done correctly to complete game.
