@@ -17,12 +17,25 @@ $(document).ready(function () {
         $("#enemiestoattack").append($(".slice-enemies"));
     }
 
+
+
     //user picks their characters.
     $("#hansolochar").on("click", function () {
-        $("#hansolochar").removeClass("character-play").addClass("playerchoice");
-        $("#playerchoice").append(this);
+        if (characterChosen = true) {
+            $("#hansolochar").removeClass("character-play").addClass("playerchoice");
+            $("#playerchoice").append(this)
+        };
+
+        
 
         moveToEnemies();
+
+    if($("#hansolochar").hasClass("slice-enemies")) {
+            $("#hansolochar").removeClass("slice-enemies").addClass("defender-character");
+            $("#defendturf").append(this);
+            };
+
+        
 
 
 
@@ -30,41 +43,51 @@ $(document).ready(function () {
 
     });
     $("#lukeskywalkerchar").on("click", function () {
-        $("#lukeskywalkerchar").removeClass("character-play").addClass("playerchoice");
-        $("#playerchoice").append(this);
+        if (characterChosen = true) {
+            $("#lukeskywalkerchar").removeClass("character-play").addClass("playerchoice");
+            $("#playerchoice").append(this)
+        };
 
         moveToEnemies();
+
+        if($("#lukeskywalkerchar").hasClass("slice-enemies")) {
+            $("#lukeskywalkerchar").removeClass("slice-enemies").addClass("defender-character");
+            $("#defendturf").append(this);
+            };
+
+
     });
 
 
     $("#darthvaderchar").on("click", function () {
-        $("#darthvaderchar").removeClass("character-play").addClass("playerchoice");
-        $("#playerchoice").append(this);
+        if (characterChosen = true) {
+            $("#darthvaderchar").removeClass("character-play").addClass("playerchoice");
+            $("#playerchoice").append(this)
+        };
 
         moveToEnemies();
+
+        if($("#darthvaderchar").hasClass("slice-enemies")) {
+            $("#darthvaderchar").removeClass("slice-enemies").addClass("defender-character");
+            $("#defendturf").append(this);
+            };
+                
+
+
     });
 
     $("#bobafettchar").on("click", function () {
-        $("#bobafettchar").removeClass("character-play").addClass("playerchoice");
-        $("#playerchoice").append(this);
+        if (characterChosen = true) {
+            $("#bobafettchar").removeClass("character-play").addClass("playerchoice");
+            $("#playerchoice").append(this)
+        };
 
         moveToEnemies();
+
+        if($("#bobafettchar").hasClass("slice-enemies")) {
+            $("#bobafettchar").removeClass("slice-enemies").addClass("defender-character");
+            $("#defendturf").append(this);
+            };
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
 });
