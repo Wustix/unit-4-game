@@ -1,4 +1,4 @@
-# unit-4-game
+# Star Wars RPG
 
 An RPG fighting game utilizing Star Wars characters.  Choose your fighter from the list of characters.  Fight the others in battles until their health reaches zero.  If you are able to defeat all characters before your health is gone, you will be declared the winner!!  
 
