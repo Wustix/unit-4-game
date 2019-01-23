@@ -10,5 +10,6 @@ https://wustix.github.io/unit-4-game/
 * HTML
 * CSS
 * Javascript
+* JQuery
 
 ![rpggame](https://user-images.githubusercontent.com/36867791/51575033-fa3fc180-1e75-11e9-8f59-a91d048c198a.png)
